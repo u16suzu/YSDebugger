@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "YSPopDebugger"
+  s.name         = "YSDebugger"
   s.version      = "0.0.1"
   s.summary      = "Show object properties."
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "u16suzu" => "u16suzu@gmail.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "ssh://git@github.com:u16suzu/YSPopButton.git", 
+  s.source       = { :git => "https://github.com/u16suzu/YSDebugger.git", 
     :tag => "0.0.1" }
   s.source_files  = 'YSDebugger.{h,m}'
 end
