@@ -11,7 +11,7 @@
 
 @implementation YSDebugger
 
-#pragma mark p method
+#pragma mark print method
 + (void)print:(id)targetObject{
     NSLog(@"%@", [targetObject class]);
     
@@ -36,6 +36,7 @@
     }
 }
 
+#pragma mark private method
 + (NSString*)parseType:(NSString*)pAttr{
     NSArray*components = [pAttr componentsSeparatedByString:@","];
     
