@@ -1,18 +1,18 @@
 //
-//  CustomModel.m
+//  YSDebugger.m
 //  properyListSpike
 //
 //  Created by u16suzu on 2013/10/10.
 //  Copyright (c) 2013年 u16suzu. All rights reserved.
 //
 
-#import "CustomModel.h"
+#import "YSDebugger.h"
 #import <objc/runtime.h>
 
-@implementation CustomModel
+@implementation YSDebugger
 
 #pragma mark p method
-+ (void)p:(id)targetObject{
++ (void)print:(id)targetObject{
     NSLog(@"%@", [targetObject class]);
     
     unsigned int outCount;
@@ -30,7 +30,7 @@
             
             NSLog(@"    %@(%@): %@",
                   pName,
-                  [targetObject parseType:pAttr],
+                  [self parseType:pAttr],
                   [targetObject valueForKey:pName]);
         }
     }

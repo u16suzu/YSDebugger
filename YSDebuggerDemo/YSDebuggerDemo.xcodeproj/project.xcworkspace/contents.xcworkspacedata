@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YSDebugger.xcodeproj">
+      location = "self:YSDebuggerDemo.xcodeproj">
    </FileRef>
 </Workspace>

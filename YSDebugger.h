@@ -1,5 +1,5 @@
 //
-//  CustomModel.h
+//  YSDebugger.h
 //  properyListSpike
 //
 //  Created by u16suzu on 2013/10/10.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CustomModel : NSObject
-+(void)p:(id)targetObject;
+@interface YSDebugger : NSObject
++(void)print:(id)targetObject;
 @end
