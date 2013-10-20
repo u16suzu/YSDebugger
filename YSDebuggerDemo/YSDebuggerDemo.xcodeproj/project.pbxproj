@@ -19,7 +19,7 @@
 		6446F0C0181448CA006EF8F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6446F0BF181448CA006EF8F3 /* ViewController.m */; };
 		6446F0C3181448CA006EF8F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6446F0C1181448CA006EF8F3 /* ViewController.xib */; };
 		6446F0CD18144913006EF8F3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6446F0CC18144913006EF8F3 /* User.m */; };
-		64F0E53518144A97005D4542 /* YSDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6446F0CA181448F0006EF8F3 /* YSDebugger.m */; };
+		64BEE0491814827E005C293A /* YSDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BEE0481814827E005C293A /* YSDebugger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +39,10 @@
 		6446F0BE181448CA006EF8F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6446F0BF181448CA006EF8F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6446F0C2181448CA006EF8F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		6446F0C9181448F0006EF8F3 /* YSDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSDebugger.h; sourceTree = "<group>"; };
-		6446F0CA181448F0006EF8F3 /* YSDebugger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSDebugger.m; sourceTree = "<group>"; };
 		6446F0CB18144913006EF8F3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		6446F0CC18144913006EF8F3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		64BEE0471814827E005C293A /* YSDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSDebugger.h; path = ../../YSDebugger.h; sourceTree = "<group>"; };
+		64BEE0481814827E005C293A /* YSDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSDebugger.m; path = ../../YSDebugger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 		64F0E53718144AF8005D4542 /* YSDebugger */ = {
 			isa = PBXGroup;
 			children = (
-				6446F0C9181448F0006EF8F3 /* YSDebugger.h */,
-				6446F0CA181448F0006EF8F3 /* YSDebugger.m */,
+				64BEE0471814827E005C293A /* YSDebugger.h */,
+				64BEE0481814827E005C293A /* YSDebugger.m */,
 			);
 			name = YSDebugger;
 			sourceTree = "<group>";
@@ -199,8 +199,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F0E53518144A97005D4542 /* YSDebugger.m in Sources */,
 				6446F0B3181448CA006EF8F3 /* main.m in Sources */,
+				64BEE0491814827E005C293A /* YSDebugger.m in Sources */,
 				6446F0B7181448CA006EF8F3 /* AppDelegate.m in Sources */,
 				6446F0C0181448CA006EF8F3 /* ViewController.m in Sources */,
 				6446F0CD18144913006EF8F3 /* User.m in Sources */,

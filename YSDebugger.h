@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__);
+#else
+#define NSLog(...)
+#endif
+
 @interface YSDebugger : NSObject
 +(void)print:(id)targetObject;
 @end
